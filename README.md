@@ -91,11 +91,11 @@ Campus Management System is a web-based application built using Node.js, Express
 |   
 |   +-- stylesheets          # CSS styles for the app
 |       +-- bootstrapicons.css # Bootstrap icon styles
-|       +-- electriccs.css    # Electric service styles
-|       +-- loginstyle.css    # Login page styles
-|       +-- reset.css         # General reset styles
-|       +-- stackpathboot.css # External styles (possibly from a CDN)
-|       +-- style.css         # Main stylesheet
+|       +-- electriccs.css     # Electric service styles
+|       +-- loginstyle.css     # Login page styles
+|       +-- reset.css          # General reset styles
+|       +-- stackpathboot.css  # External styles (possibly from a CDN)
+|       +-- style.css          # Main stylesheet
 
 +-- routes                   # Backend routing for different sections
 |   +-- civil_route.js       # Routes related to civil section
@@ -113,72 +113,73 @@ Campus Management System is a web-based application built using Node.js, Express
 |   +-- login.ejs            # Login page template
 |   
 |   +-- civil                # Civil service views
-|   |   +-- addinventory.ejs # Add inventory page
-|   |   +-- civil_closed.ejs # Civil closed tasks page
-|   |   +-- civil_completed.ejs # Completed civil tasks
-|   |   +-- civil_home.ejs   # Civil home page
+|   |   +-- addinventory.ejs     # Add inventory page
+|   |   +-- civil_closed.ejs     # Civil closed tasks page
+|   |   +-- civil_completed.ejs  # Completed civil tasks
+|   |   +-- civil_home.ejs       # Civil home page
 |   |   +-- civil_inprogress.ejs # In-progress civil tasks
-|   |   +-- civil_latest.ejs # Latest civil tasks
-|   |   +-- civil_pending.ejs # Pending civil tasks
-|   |   +-- duty_assignment.ejs # Duty assignment page
-|   |   +-- location_add.ejs # Add location page
-|   |   +-- location_list.ejs # List of locations
-|   |   +-- location_remove.ejs # Remove location page
-|   |   +-- reset_civil.ejs # Reset civil data page
-|   |   +-- updateinventory.ejs # Update inventory page
-|   |   +-- view_inventory.ejs # View inventory page
-|   |   +-- worker_add.ejs  # Add worker page
-|   |   +-- worker_list.ejs # List of workers
-|   |   +-- worker_remove.ejs # Remove worker page
+|   |   +-- civil_latest.ejs     # Latest civil tasks
+|   |   +-- civil_pending.ejs    # Pending civil tasks
+|   |   +-- duty_assignment.ejs  # Duty assignment page
+|   |   +-- location_add.ejs     # Add location page
+|   |   +-- location_list.ejs    # List of locations
+|   |   +-- location_remove.ejs  # Remove location page
+|   |   +-- reset_civil.ejs      # Reset civil data page
+|   |   +-- updateinventory.ejs  # Update inventory page
+|   |   +-- view_inventory.ejs   # View inventory page
+|   |   +-- worker_add.ejs       # Add worker page
+|   |   +-- worker_list.ejs      # List of workers
+|   |   +-- worker_remove.ejs    # Remove worker page
 |   
 |   +-- Electric             # Electric service views
-|   |   +-- addinventory.ejs # Add electric inventory page
-|   |   +-- duty_assignment.ejs # Duty assignment page
-|   |   +-- electrician_add.ejs # Add electrician page
-|   |   +-- electrician_list.ejs # List of electricians
-|   |   +-- electrician_remove.ejs # Remove electrician page
-|   |   +-- electric_closed.ejs # Electric closed tasks
-|   |   +-- electric_completed.ejs # Completed electric tasks
-|   |   +-- electric_home.ejs # Electric home page
+|   |   +-- addinventory.ejs        # Add electric inventory page
+|   |   +-- duty_assignment.ejs     # Duty assignment page
+|   |   +-- electrician_add.ejs     # Add electrician page
+|   |   +-- electrician_list.ejs    # List of electricians
+|   |   +-- electrician_remove.ejs  # Remove electrician page
+|   |   +-- electric_closed.ejs     # Electric closed tasks
+|   |   +-- electric_completed.ejs  # Completed electric tasks
+|   |   +-- electric_home.ejs       # Electric home page
 |   |   +-- electric_inprogress.ejs # In-progress electric tasks
-|   |   +-- electric_latest.ejs # Latest electric tasks
-|   |   +-- electric_pending.ejs # Pending electric tasks
-|   |   +-- location_add.ejs # Add location page
-|   |   +-- location_list.ejs # List of electric locations
-|   |   +-- location_remove.ejs # Remove electric location page
-|   |   +-- reset_electric.ejs # Reset electric data page
-|   |   +-- updateinventory.ejs # Update electric inventory page
-|   |   +-- view_inventory.ejs # View electric inventory page
+|   |   +-- electric_latest.ejs     # Latest electric tasks
+|   |   +-- electric_pending.ejs    # Pending electric tasks
+|   |   +-- location_add.ejs        # Add location page
+|   |   +-- location_list.ejs       # List of electric locations
+|   |   +-- location_remove.ejs     # Remove electric location page
+|   |   +-- reset_electric.ejs      # Reset electric data page
+|   |   +-- updateinventory.ejs     # Update electric inventory page
+|   |   +-- view_inventory.ejs      # View electric inventory page
 |   
 |   +-- Plumbing             # Plumbing service views
-|   |   +-- addinventory.ejs # Add plumbing inventory page
-|   |   +-- duty_assignment.ejs # Duty assignment page
-|   |   +-- location_add.ejs # Add plumbing location
-|   |   +-- location_list.ejs # List of plumbing locations
-|   |   +-- location_remove.ejs # Remove plumbing location page
-|   |   +-- plumber_add.ejs  # Add plumber page
-|   |   +-- plumber_list.ejs # List of plumbers
-|   |   +-- plumber_remove.ejs # Remove plumber page
-|   |   +-- plumbing_closed.ejs # Plumbing closed tasks
-|   |   +-- plumbing_completed.ejs # Completed plumbing tasks
-|   |   +-- plumbing_home.ejs # Plumbing home page
+|   |   +-- addinventory.ejs        # Add plumbing inventory page
+|   |   +-- duty_assignment.ejs     # Duty assignment page
+|   |   +-- location_add.ejs        # Add plumbing location
+|   |   +-- location_list.ejs       # List of plumbing locations
+|   |   +-- location_remove.ejs     # Remove plumbing location page
+|   |   +-- plumber_add.ejs         # Add plumber page
+|   |   +-- plumber_list.ejs        # List of plumbers
+|   |   +-- plumber_remove.ejs      # Remove plumber page
+|   |   +-- plumbing_closed.ejs     # Plumbing closed tasks
+|   |   +-- plumbing_completed.ejs  # Completed plumbing tasks
+|   |   +-- plumbing_home.ejs       # Plumbing home page
 |   |   +-- plumbing_inprogress.ejs # In-progress plumbing tasks
-|   |   +-- plumbing_latest.ejs # Latest plumbing tasks
-|   |   +-- plumbing_pending.ejs # Pending plumbing tasks
-|   |   +-- reset_plumbing.ejs # Reset plumbing data page
-|   |   +-- updateinventory.ejs # Update plumbing inventory page
-|   |   +-- view_inventory.ejs # View plumbing inventory page
+|   |   +-- plumbing_latest.ejs     # Latest plumbing tasks
+|   |   +-- plumbing_pending.ejs    # Pending plumbing tasks
+|   |   +-- reset_plumbing.ejs      # Reset plumbing data page
+|   |   +-- updateinventory.ejs     # Update plumbing inventory page
+|   |   +-- view_inventory.ejs      # View plumbing inventory page
 |   
 |   +-- User                 # User-related views
-|       +-- civil_all.ejs     # View for all civil tasks
-|       +-- civil_launch.ejs  # Civil task launch page
-|       +-- civil_status.ejs  # Civil status page
-|       +-- electric_all.ejs  # View for all electric tasks
+|       +-- civil_all.ejs       # View for all civil tasks
+|       +-- civil_launch.ejs    # Civil task launch page
+|       +-- civil_status.ejs    # Civil status page
+|       +-- electric_all.ejs    # View for all electric tasks
 |       +-- electric_launch.ejs # Electric task launch page
 |       +-- electric_status.ejs # Electric status page
-|       +-- plumbing_all.ejs  # View for all plumbing tasks
+|       +-- plumbing_all.ejs    # View for all plumbing tasks
 |       +-- plumbing_launch.ejs # Plumbing task launch page
 |       +-- plumbing_status.ejs # Plumbing status page
-|       +-- user_home.ejs     # User home page
-|       +-- user_profile.ejs  # User profile page
-|       +-- user_reset.ejs    # User reset page
+|       +-- user_home.ejs       # User home page
+|       +-- user_profile.ejs    # User profile page
+|       +-- user_reset.ejs      # User reset page
+```
